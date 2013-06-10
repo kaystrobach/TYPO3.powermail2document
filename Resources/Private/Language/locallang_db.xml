@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the roomplaner extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_powermail2document_attachments_recipient">attachments for the recipient</label>
+			<label index="tx_powermail2document_attachments_recipient_dynamicfilename">dynamic filename creation</label>
+			<label index="tx_powermail2document_description_recipient">description</label>
+			<label index="tx_powermail2document_attachments_sender">attachments for the sender</label>
+			<label index="tx_powermail2document_attachments_sender_dynamicfilename">dynamic filename creation</label>
+			<label index="tx_powermail2document_description_sender">description</label>
+			<label index="tx_powermail2document_attachments_sender_downloadable">Files downloadable on thanks page?</label>
+			<label index="tx_powermail2document_attachments_recipient_zipmanipulation">Manipulate files of type zip</label>
+			<label index="tx_powermail2document_attachments_sender_zipmanipulation">Manipulate files of type zip</label>
+			<label index="tx_powermail2document_palette">Dynamic attachment management (powermail2document)</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_powermail2document_attachments_recipient">Anhänge für den Empfänger</label>
+			<label index="tx_powermail2document_attachments_recipient_dynamicfilename">erzeuge Dateiname dynamisch neu</label>
+			<label index="tx_powermail2document_description_recipient">Beschreibung</label>
+			<label index="tx_powermail2document_attachments_sender">Anhänge für den Absender</label>
+			<label index="tx_powermail2document_attachments_sender_dynamicfilename">erzeuge Dateiname dynamisch neu</label>
+			<label index="tx_powermail2document_description_sender">Beschreibung</label>
+			<label index="tx_powermail2document_attachments_sender_downloadable">Dateien herunterladbar auf Bestätigungsseite?</label>
+			<label index="tx_powermail2document_attachments_recipient_zipmanipulation">Manipuliere Zip Dateien</label>
+			<label index="tx_powermail2document_attachments_sender_zipmanipulation">Manipuliere Zip Dateien</label>
+			<label index="tx_powermail2document_palette">Verwaltung der dynamisch erzeugten Anhänge (powermail2document)</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tx_powermail2document_attachments_recipient">Pièce jointe pour le destinataire</label>
+			<label index="tx_powermail2document_attachments_recipient_dynamicfilename">Création du fichier dynamique</label>
+			<label index="tx_powermail2document_description_recipient">Description</label>
+			<label index="tx_powermail2document_attachments_sender">Pièce jointe pour l'expéditeur</label>
+			<label index="tx_powermail2document_attachments_sender_dynamicfilename">Création du fichier dynamique</label>
+			<label index="tx_powermail2document_description_sender">Description</label>
+			<label index="tx_powermail2document_attachments_sender_downloadable">Fichiers téléchargeables?</label>
+		</languageKey>
+	</data>
+</T3locallang>

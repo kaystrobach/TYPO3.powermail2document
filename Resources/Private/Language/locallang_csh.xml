@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description></description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_powermail2document_attachments_recipient.description">
+				In most files tokens like ${UID[xx]} are replaced. Click here to see more details.
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.details">
+				<![CDATA[
+					<b>docx, xlsx, odt, ods, txt, html, csv, pptx</b><br />
+					paramters of type ${UID[int]} or ${feldbezeichner} are replaced
+					<b>rtf</b><br />
+					paramters of type ###UID[int]### or ###feldbezeichner### are replaced
+					<b>pdf</b><br />
+					PDFLib Pdfblocks are filled and form fields are filled
+					<b>other filetypes</b><br />
+					are simply attached
+				]]>
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.image">
+				EXT:powermail2document/Resources/Private/CshImages/default.tx_powermail2document_attachments.png
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.image_descr">
+				Powerpoint replacement in pptx file, Word replacement in odt file
+			</label>
+			<label index="tx_powermail2document_attachments_recipient_dynamicfilename.description">
+				You can use default tokens like ###UID[xx]### to replace parts of the filename. Please remind to add the valid fileending.
+			</label>
+			<label index="tx_powermail2document_attachments_sender.description">
+				In most files tokens like ${UID[xx]} are replaced. Click here to see more details.
+			</label>
+			<label index="tx_powermail2document_attachments_sender.details">
+				<![CDATA[
+					<b>docx, xlsx, odt, ods, txt, html, csv, pptx</b><br />
+					paramters of type ${UID[int]} or ${feldbezeichner} are replaced
+					<b>rtf</b><br />
+					paramters of type ###UID[int]### or ###feldbezeichner### are replaced
+					<b>pdf</b><br />
+					PDFLib Pdfblocks are filled and form fields are filled
+					<b>other filetypes</b><br />
+					are simply attached
+				]]>
+			</label>
+			<label index="tx_powermail2document_attachments_sender.image">
+				EXT:powermail2document/Resources/Private/CshImages/default.tx_powermail2document_attachments.png
+			</label>
+			<label index="tx_powermail2document_attachments_sender.image_descr">
+				Powerpoint replacement in pptx file, Word replacement in odt file
+			</label>
+			<label index="tx_powermail2document_attachments_sender_dynamicfilename.description">
+				You can use default tokens like ###UID[xx]### to replace parts of the filename. Please remind to add the valid fileending.
+			</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tx_powermail2document_attachments_recipient.description">
+				Dans la plupart des fichiers les variables comme ${UID[xx]} sont remplacés. Cliquer ici pour plus d'informations.
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.details">
+				<![CDATA[
+					<b>docx, xlsx, odt, ods, txt, html, csv, pptx</b><br />
+					paramètres du type ${UID[int]} ou ${feldbezeichner} sont remplacés
+					<b>rtf</b><br />
+					paramètres du type ###UID[int]### or ###feldbezeichner### sont remplacés
+					<b>pdf</b><br />
+					PDFLib Pdfblocks sont saisis et champs des formulaires sont saisis
+					<b>autres types de fichier</b><br />
+					sont simplement attachés
+				]]>
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.image">
+				EXT:powermail2document/Resources/Private/CshImages/default.tx_powermail2document_attachments.png
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.image_descr">
+				Remplacement Powerpoint dans fichier pptx, remplacement Word dans fichier odt
+			</label>
+			<label index="tx_powermail2document_attachments_recipient_dynamicfilename.description">
+				Vous pouvez utiliser des variables comme ###UID[xx]### pour construire le nom du fichier. Faire attention de bien définir la bonne extension.
+			</label>
+			<label index="tx_powermail2document_attachments_sender.description">
+				Dans la plupart des fichiers les variables comme ${UID[xx]} sont remplacés. Cliquer ici pour plus d'informations.
+			</label>
+			<label index="tx_powermail2document_attachments_sender.details">
+				<![CDATA[
+					<b>docx, xlsx, odt, ods, txt, html, csv, pptx</b><br />
+					paramètres du type ${UID[int]} ou ${feldbezeichner} sont remplacés
+					<b>rtf</b><br />
+					paramètres du type ###UID[int]### or ###feldbezeichner### sont remplacés
+					<b>pdf</b><br />
+					PDFLib Pdfblocks sont saisis et champs des formulaires sont saisis
+					<b>autres types de fichier</b><br />
+					sont simplement attachés
+				]]>
+			</label>
+			<label index="tx_powermail2document_attachments_sender.image">
+				EXT:powermail2document/Resources/Private/CshImages/default.tx_powermail2document_attachments.png
+			</label>
+			<label index="tx_powermail2document_attachments_sender.image_descr">
+				Remplacement Powerpoint dans fichier pptx, remplacement Word dans fichier odt
+			</label>
+			<label index="tx_powermail2document_attachments_sender_dynamicfilename.description">
+				Vous pouvez utiliser des variables comme ###UID[xx]### pour construire le nom du fichier. Faire attention de bien définir la bonne extension.
+			</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_powermail2document_attachments_recipient.description">
+				In den meisten Dateitypen werden Token vom Typ ${UID[xx]} ersetzt. Schau in die Details für mehr Informationen.
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.details">
+				<![CDATA[
+					<b>docx, xlsx, odt, ods, txt, html, csv, pptx</b><br />
+					Paramter vom Typ ${UID[int]} bzw. ${feldbezeichner} werden ersetzt
+					<b>rtf</b><br />
+					Paramter vom Typ ###UID[int]### bzw. ###feldbezeichner### werden ersetzt
+					<b>pdf</b><br />
+					PDFLib Pdfblocks werden ersetzt und Formularfelder werden befüllt (noch nicht implementiert)
+					<b>sonstige</b><br />
+					werden einfach angehängt
+				]]>
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.image">
+				EXT:powermail2document/Resources/Private/CshImages/default.tx_powermail2document_attachments.png
+			</label>
+			<label index="tx_powermail2document_attachments_recipient.image_descr">
+				Powerpoint mit ersetzten Token in einer pptx Datei, Word mit ersetzten Token in einer Odt Datei
+			</label>
+			<label index="tx_powermail2document_attachments_recipient_dynamicfilename.description">
+				Du kannst Standardtoken wie z.B.  ###UID[xx]### nutzen, um einen Dateinamen (einer pro Zeile) dynamisch zusammenzusetzen. Bitte denk an die Dateiendung.
+			</label>
+			<label index="tx_powermail2document_attachments_sender.description">
+				In den meisten Dateitypen werden Token vom Typ ${UID[xx]} ersetzt. Schau in die Details für mehr Informationen.
+			</label>
+			<label index="tx_powermail2document_attachments_sender.details">
+				<![CDATA[
+					<b>docx, xlsx, odt, ods, txt, html, csv, pptx</b><br />
+					Paramter vom Typ ${UID[int]} bzw. ${feldbezeichner} werden ersetzt
+					<b>rtf</b><br />
+					Paramter vom Typ ###UID[int]### bzw. ###feldbezeichner### werden ersetzt
+					<b>pdf</b><br />
+					PDFLib Pdfblocks werden ersetzt und Formularfelder werden befüllt (noch nicht implementiert)
+					<b>sonstige</b><br />
+					werden einfach angehängt
+				]]>
+			</label>
+			<label index="tx_powermail2document_attachments_sender.image">
+				EXT:powermail2document/Resources/Private/CshImages/default.tx_powermail2document_attachments.png
+			</label>
+			<label index="tx_powermail2document_attachments_sender.image_descr">
+				Powerpoint mit ersetzten Token in einer pptx Datei, Word mit ersetzten Token in einer Odt Datei
+			</label>
+			<label index="tx_powermail2document_attachments_sender_dynamicfilename.description">
+				Du kannst Standardtoken wie z.B.  ###UID[xx]### nutzen, um einen Dateinamen (einer pro Zeile) dynamisch zusammenzusetzen. Bitte denk an die Dateiendung.
+			</label>
+		</languageKey>
+	</data>
+</T3locallang>

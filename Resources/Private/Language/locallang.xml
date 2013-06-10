@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the roomplaner extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_powermail2document_filetype_header">Hints according filetypes</label>
+			<label index="tx_powermail2document_filetype_default">params like ${UID[int]} or ${feldbezeichner} will be replaced</label>
+			<label index="tx_powermail2document_filetype_other">other types are attached unmodified</label>
+			<label index="tx_powermail2document_filetype_rtf">params like ###UID[int]### or ###feldbezeichner### are replaced</label>
+			<label index="tx_powermail2document_filetype_pdf">pdf form fields are filled with the data from the fields, see manual for more details</label>
+		</languageKey>
+		<languageKey index="fr type="array">
+			<label index="tx_powermail2document_filetype_header">Hinweise zu den Dateitypen</label>
+			<label index="tx_powermail2document_filetype_default">Paramter vom typ ${UID[int]} bzw. ${feldbezeichner} werden ersetzt</label>
+			<label index="tx_powermail2document_filetype_other">werden einfach angehängt</label>
+			<label index="tx_powermail2document_filetype_rtf">Paramter vom Typ ###UID[int]### bzw. ###feldbezeichner### werden ersetzt</label>
+			<label index="tx_powermail2document_filetype_pdf">PDFLib Pdfblocks werden ersetzt und Formularfelder werden befüllt (noch nicht implementiert)</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tx_powermail2document_filetype_header">Hinweise zu den Dateitypen</label>
+			<label index="tx_powermail2document_filetype_default">Paramter vom typ ${UID[int]} bzw. ${feldbezeichner} werden ersetzt</label>
+			<label index="tx_powermail2document_filetype_other">werden einfach angehängt</label>
+			<label index="tx_powermail2document_filetype_rtf">Paramter vom Typ ###UID[int]### bzw. ###feldbezeichner### werden ersetzt</label>
+			<label index="tx_powermail2document_filetype_pdf">PDFLib Pdfblocks werden ersetzt und Formularfelder werden befüllt (noch nicht implementiert)</label>
+		</languageKey>
+	</data>
+</T3locallang>

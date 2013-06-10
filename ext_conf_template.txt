@@ -1,0 +1,4 @@
+# cat=basic/settings; type=user[Tx_powermail2document_ExtMgm_Configuration_Donate->render]; label = Help me improving this extension.
+emDonate =
+# cat=basic/settings; type=options[Fill Pdf's with Php only =fillFormWithPHP, Use Pdftk Framework=fillFormWithPdfTk, Just copy file (debug)=renderFileJustCopy]; label=PDF Library to use for filling forms
+pdfRenderer = fillFormWithPHP
