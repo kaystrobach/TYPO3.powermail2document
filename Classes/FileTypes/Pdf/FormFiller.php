@@ -174,7 +174,7 @@ class Tx_Powermail2document_FileTypes_Pdf_FormFiller {
 		}
 	}
 	function get($name) {
-		return $this->keysOfFormFields[$fieldname]['value'];
+		return $this->keysOfFormFields[$name]['value'];
 	}
 	function set($fieldname,$value) {
 		if(array_key_exists($fieldname, $this->keysOfFormFields)) {
