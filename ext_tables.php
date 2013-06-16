@@ -29,7 +29,7 @@ $tempColumns = Array (
 			'maxitems'      => '200',
 			'minitems'      => '0',
 			'autoSizeMax'   => 40,
-			#'show_thumbs'   => 1,
+			'show_thumbs'   => 1,
 		)
 	),
 	'tx_powermail2document_attachments_recipient_dynamicfilename' => array(
@@ -63,7 +63,7 @@ $tempColumns = Array (
 			'maxitems'      => '200',
 			'minitems'      => '0',
 			'autoSizeMax'   => 40,
-			#'show_thumbs'   => 1,
+			'show_thumbs'   => 1,
 		),
 	),
 	'tx_powermail2document_attachments_sender_dynamicfilename' => array(
